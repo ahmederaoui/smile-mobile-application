@@ -12,5 +12,7 @@
     <string name="last_name">last Name ...</string>
     <string name="first_name">First Name ...</string>
     <string name="send">Send</string>
-    <string name="home">home</string>
+    <string name="home">Home</string>
+    <string name="mes">,you\'re beautiful when you smile...</string>
+    <string name="hi">"Hey "</string>
 </resources>

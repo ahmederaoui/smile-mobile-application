@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">smile</string>
+    <string name="last_name">Nom ...</string>
+    <string name="first_name">Prénom ...</string>
+    <string name="send">Envoyer</string>
+    <string name="home">Accueil</string>
+    <string name="mes">,tu es bel(le) quand tu souris...</string>
+    <string name="hi">"Salut "</string>
+</resources>

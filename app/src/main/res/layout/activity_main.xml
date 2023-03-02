@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F9F54B"
+    android:background="@color/yellow"
     android:textAlignment="center"
     tools:context=".MainActivity">
 
@@ -15,7 +15,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="10dp"
-        android:src="@drawable/smily"
+        android:src="@drawable/smile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></ImageView>

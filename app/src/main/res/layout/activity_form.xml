@@ -4,6 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".FormActivity">
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/background_form"
+        android:fontFamily="@font/bungee"
+        android:hint="@string/last_name"
+        android:paddingLeft="20dp"
+        android:paddingTop="7dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="7dp"
+        android:textColorHint="#485353"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:fontFamily="@font/bangers"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Smile Application"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background_form"
+        android:fontFamily="@font/bungee"
+        android:hint="@string/first_name"
+        android:paddingLeft="20dp"
+        android:paddingTop="7dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="7dp"
+        android:textColorHint="#485353"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/send"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/yellow"
+        android:fontFamily="@font/bangers"
+        android:text="@string/send"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastName" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="257dp"
+        android:layout_height="505dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toTopOf="@+id/send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/mantyping" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
